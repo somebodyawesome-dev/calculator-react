@@ -1,0 +1,34 @@
+:root {
+  --medium--size: 15px 15px;
+  --large--size: 10px 20px;
+  --number--color: lightgrey;
+  --function--color: #c7c7c7;
+  --operation--color: orange;
+}
+
+button {
+  outline: none;
+  border: none;
+  opacity: 1;
+  padding: var(--medium--size);
+  border-top: 1px solid #777;
+  border-right: 1px solid #666;
+  text-align: center;
+  flex: 0 1 25%;
+}
+button:hover {
+  opacity: 0.75;
+}
+.btn-number {
+  background-color: var(--number--color);
+}
+.btn-operation {
+  background-color: var(--operation--color);
+}
+.btn-function {
+  background-color: var(--function--color);
+}
+
+.btn-large {
+  flex-grow: 2;
+}

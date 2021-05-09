@@ -1,0 +1,23 @@
+:root {
+  --display-size: 20px 20px;
+  --display-font-size: 35px;
+}
+
+.wrapper {
+  width: 400px;
+  margin: auto;
+}
+.KeyBoardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: var(--display-font-size);
+}
+.calcDisplay {
+  font-size: var(--display-font-size);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  background: #1c191c;
+  padding: var(--display-size);
+  text-align: right;
+}
