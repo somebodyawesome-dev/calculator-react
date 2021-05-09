@@ -1,4 +1,4 @@
-###Simple calculator
+### Simple calculator
 ## Available Scripts
 
 In the project directory, you can run:
