@@ -1,4 +1,6 @@
 ### Simple calculator
+![alt text](public/Capture.JPG)
+
 ## Available Scripts
 
 In the project directory, you can run:
